@@ -3,16 +3,9 @@
   "currency": "PKR",
   "source": "OGRA",
   "last_updated": "2026-09-15T23:45:00+05:00",
-  "product": "Petrol",
-  "current_price": 321.17,
-  "previous_price": 316.00,
-  "price_change": 5.17,
-  "price_change_percentage": 1.64,
-  "last_change_date": "2026-09-01",
-  "effective_date": "2026-09-01",
-  "unit": "litre",
   "products": {
     "petrol": {
+      "status": "active",
       "product_id": "petrol",
       "product_name": "Super Petrol (RON 92)",
       "current_price": 321.17,
@@ -26,6 +19,7 @@
       "source": "OGRA"
     },
     "hsd": {
+      "status": "active",
       "product_id": "hsd",
       "product_name": "High-Speed Diesel (HSD)",
       "current_price": 385.95,
@@ -39,6 +33,7 @@
       "source": "OGRA"
     },
     "kerosene": {
+      "status": "active",
       "product_id": "kerosene",
       "product_name": "Kerosene Oil",
       "current_price": 307.00,
@@ -52,6 +47,7 @@
       "source": "OGRA"
     },
     "ldo": {
+      "status": "active",
       "product_id": "ldo",
       "product_name": "Light Diesel Oil (LDO)",
       "current_price": 267.06,
@@ -65,6 +61,7 @@
       "source": "OGRA"
     },
     "lpg": {
+      "status": "active",
       "product_id": "lpg",
       "product_name": "Auto LPG",
       "current_price": 243.50,
@@ -78,6 +75,7 @@
       "source": "OGRA"
     },
     "cng": {
+      "status": "active",
       "product_id": "cng",
       "product_name": "CNG (Region I/II)",
       "current_price": 205.00,
@@ -92,4 +90,3 @@
     }
   }
 }
-
