@@ -2,10 +2,7 @@ name: Update fuel prices
 
 on:
   schedule:
-    # 12:03 AM and 12:10 AM Pakistan time.
-    # Pakistan is UTC+5, so these are 19:03 and 19:10 UTC.
-    - cron: "30 04 * * *"
-    - cron: "40 04 * * *"
+  - cron:  "0 8 * * *"
   workflow_dispatch:
 
 permissions:
