@@ -2,11 +2,11 @@ name: Update fuel prices
 
 on:
   schedule:
-    - cron: "10 21 * * *"
-      timezone: "Asia/Karachi"
-    - cron: "15 21 * * *"
+    - cron: "14 21 * * *"
       timezone: "Asia/Karachi"
     - cron: "20 21 * * *"
+      timezone: "Asia/Karachi"
+    - cron: "25 21 * * *"
       timezone: "Asia/Karachi"
   workflow_dispatch:
 
