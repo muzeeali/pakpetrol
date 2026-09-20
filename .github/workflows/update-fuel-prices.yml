@@ -6,7 +6,7 @@ on:
       timezone: "Asia/Karachi"
     - cron: "20 21 * * *"
       timezone: "Asia/Karachi"
-    - cron: "25 21 * * *"
+    - cron: "28 21 * * *"
       timezone: "Asia/Karachi"
   workflow_dispatch:
 
